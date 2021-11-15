@@ -1,0 +1,12 @@
+count = int(input(" Hello, Please enter the size of array: "))
+
+array = []
+print("Please Enter the numbers in your array")
+
+for i in range(count):
+    elements = input()
+    array.append(elements)
+
+A = array[::-1]
+print("Entered array is: ", array)
+print("Reversed array" ,A)
